@@ -1,0 +1,19 @@
+{
+	"name": "naive-theme",
+	"displayName": "Naive Theme",
+	"version": "0.1.0",
+	"publisher": "BernardW",
+	"engines": {
+		"vscode": "*"
+	},
+	"icon": "./icon.svg",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Naive",
+				"path": "./themes/naive.json",
+				"uiTheme": "vs-dark"
+			}
+		]
+	}
+}
