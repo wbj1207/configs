@@ -17,7 +17,6 @@ no-ligation = true
     k = "straight-serifless"
     l = "serifed"
     r = "compact"
-    t = "flat-hook"
     u = "toothed"
     y = "straight-turn"
     long-s = "flat-hook-tailed"
