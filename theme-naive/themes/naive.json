@@ -4,11 +4,11 @@
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "class": "#78bae0",
+        "class": "#51afef",
         "comment": "#969896",
         "function": "#98c379",
         "keyword": "#ff9580",
-        "namespace": "#78bae0",
+        "namespace": "#51afef",
         "number": "#c397d8",
         "parameter": {
             "fontStyle": "italic"
@@ -25,7 +25,7 @@
         "editor.foreground": "#d4d4d4",
         "editor.lineHighlightBorder": "#3a3a3b",
         "editorBracketHighlight.foreground1": "#f99157",
-        "editorBracketHighlight.foreground2": "#51afef",
+        "editorBracketHighlight.foreground2": "#3aa4ed",
         "editorBracketHighlight.foreground3": "#90c966",
         "editorBracketHighlight.unexpectedBracket.foreground": "#ec3e45",
         "editorCursor.foreground": "#f5bde6",
@@ -52,7 +52,7 @@
         "tab.unfocusedHoverBackground": "#2e2e2f",
         "terminalCursor.foreground": "#f5bde6",
         "terminal.ansiBlack": "#252526",
-        "terminal.ansiBlue": "#78bae0",
+        "terminal.ansiBlue": "#51afef",
         "terminal.ansiCyan": "#75d5c1",
         "terminal.ansiGreen": "#98c379",
         "terminal.ansiMagenta": "#c397d8",
@@ -60,7 +60,7 @@
         "terminal.ansiWhite": "#d4d4d4",
         "terminal.ansiYellow": "#e5c07b",
         "terminal.ansiBrightBlack": "#969896",
-        "terminal.ansiBrightBlue": "#51afef",
+        "terminal.ansiBrightBlue": "#3aa4ed",
         "terminal.ansiBrightCyan": "#4ec9b0",
         "terminal.ansiBrightGreen": "#90c966",
         "terminal.ansiBrightMagenta": "#c678dd",
@@ -199,7 +199,7 @@
                 "meta.separator.markdown"
             ],
             "settings": {
-                "foreground": "#78bae0"
+                "foreground": "#51afef"
             }
         },
         {
@@ -297,7 +297,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#78bae0"
+                "foreground": "#51afef"
             }
         },
         {
