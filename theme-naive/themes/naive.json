@@ -9,7 +9,7 @@
         "function": "#c397d8",
         "keyword": "#51afef",
         "namespace": "#e5c07b",
-        "number": "#f99157",
+        "number": "#da8548",
         "parameter": {
             "fontStyle": "italic"
         },
@@ -253,7 +253,7 @@
                 "support.constant"
             ],
             "settings": {
-                "foreground": "#f99157"
+                "foreground": "#da8548"
             }
         },
         {
