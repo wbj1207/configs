@@ -4,17 +4,17 @@
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "class": "#51afef",
+        "class": "#e5c07b",
         "comment": "#969896",
-        "function": "#98c379",
-        "keyword": "#ff9580",
-        "namespace": "#51afef",
-        "number": "#c397d8",
+        "function": "#c397d8",
+        "keyword": "#51afef",
+        "namespace": "#e5c07b",
+        "number": "#f99157",
         "parameter": {
             "fontStyle": "italic"
         },
         "regexp": "#75d5c1",
-        "string": "#e5c07b",
+        "string": "#98c379",
         "variable": "#d4d4d4",
     },
     "colors": {
