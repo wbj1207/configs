@@ -24,9 +24,9 @@
         "editor.findMatchBackground": "#9e6a03",
         "editor.foreground": "#d4d4d4",
         "editor.lineHighlightBorder": "#3a3a3b",
-        "editorBracketHighlight.foreground1": "#f99157",
-        "editorBracketHighlight.foreground2": "#3aa4ed",
-        "editorBracketHighlight.foreground3": "#90c966",
+        "editorBracketHighlight.foreground1": "#3aa4ed",
+        "editorBracketHighlight.foreground2": "#fec459",
+        "editorBracketHighlight.foreground3": "#c678dd",
         "editorBracketHighlight.unexpectedBracket.foreground": "#ec3e45",
         "editorCursor.foreground": "#f5bde6",
         "editorGroupHeader.tabsBackground": "#252526",
@@ -74,7 +74,25 @@
                 "header"
             ],
             "settings": {
-                "foreground": "#ff9580"
+                "foreground": "#51afef"
+            }
+        },
+        {
+            "scope": [
+                "invalid"
+            ],
+            "settings": {
+                "foreground": "#ec3e45",
+                "fontStyle": "underline italic"
+            }
+        },
+        {
+            "scope": [
+                "invalid.deprecated"
+            ],
+            "settings": {
+                "foreground": "#969896",
+                "fontStyle": "strikethrough"
             }
         },
         {
@@ -99,7 +117,7 @@
                 "markup.deleted"
             ],
             "settings": {
-                "foreground": "#fb4934"
+                "foreground": "#969896"
             }
         },
         {
@@ -107,25 +125,7 @@
                 "markup.changed"
             ],
             "settings": {
-                "foreground": "#4ec9b0"
-            }
-        },
-        {
-            "scope": [
-                "invalid"
-            ],
-            "settings": {
-                "foreground": "#ec3e45",
-                "fontStyle": "underline italic"
-            }
-        },
-        {
-            "scope": [
-                "invalid.deprecated"
-            ],
-            "settings": {
-                "foreground": "#969896",
-                "fontStyle": "strikethrough"
+                "foreground": "#fec459"
             }
         },
         {
@@ -161,7 +161,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#ff9580"
+                "foreground": "#3aa4ed"
             }
         },
         {
@@ -180,7 +180,7 @@
                 "markup.raw.restructuredtext"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#c397d8"
             }
         },
         {
@@ -190,7 +190,7 @@
                 "markup.quote"
             ],
             "settings": {
-                "foreground": "#e5c07b",
+                "foreground": "#90c966",
             }
         },
         {
@@ -199,7 +199,8 @@
                 "meta.separator.markdown"
             ],
             "settings": {
-                "foreground": "#51afef"
+                "fontStyle": "bold",
+                "foreground": "#969896",
             }
         },
         {
@@ -210,7 +211,7 @@
                 "markup.fenced_code.block.markdown punctuation.definition.markdown"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#c397d8"
             }
         },
         {
@@ -231,7 +232,7 @@
                 "storage.type.type"
             ],
             "settings": {
-                "foreground": "#ff9580"
+                "foreground": "#51afef"
             }
         },
         {
@@ -252,7 +253,7 @@
                 "support.constant"
             ],
             "settings": {
-                "foreground": "#c397d8"
+                "foreground": "#f99157"
             }
         },
         {
@@ -261,7 +262,7 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#e5c07b"
+                "foreground": "#98c379"
             }
         },
         {
@@ -297,7 +298,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#51afef"
+                "foreground": "#e5c07b"
             }
         },
         {
@@ -308,7 +309,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#98c379",
+                "foreground": "#c397d8",
                 "fontStyle": ""
             }
         },
