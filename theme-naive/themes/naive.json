@@ -56,13 +56,13 @@
         "terminal.ansiCyan": "#75d5c1",
         "terminal.ansiGreen": "#98c379",
         "terminal.ansiMagenta": "#c397d8",
-        "terminal.ansiRed": "#fb4934",
+        "terminal.ansiRed": "#ff6c6b",
         "terminal.ansiWhite": "#d4d4d4",
         "terminal.ansiYellow": "#e5c07b",
         "terminal.ansiBrightBlack": "#969896",
         "terminal.ansiBrightBlue": "#0099ff",
-        "terminal.ansiBrightCyan": "#4ec9b0",
-        "terminal.ansiBrightGreen": "#90c966",
+        "terminal.ansiBrightCyan": "#32d6b3",
+        "terminal.ansiBrightGreen": "#73ca33",
         "terminal.ansiBrightMagenta": "#c678dd",
         "terminal.ansiBrightRed": "#ec3e45",
         "terminal.ansiBrightWhite": "#eaeaea",
@@ -180,7 +180,7 @@
                 "markup.raw.restructuredtext"
             ],
             "settings": {
-                "foreground": "#fe8019"
+                "foreground": "#ff8b43"
             }
         },
         {
@@ -190,7 +190,7 @@
                 "markup.quote"
             ],
             "settings": {
-                "foreground": "#90c966"
+                "foreground": "#73ca33"
             }
         },
         {
@@ -199,7 +199,7 @@
                 "meta.separator.markdown"
             ],
             "settings": {
-                "foreground": "#4ec9b0"
+                "foreground": "#32d6b3"
             }
         },
         {
@@ -210,7 +210,7 @@
                 "markup.fenced_code.block.markdown punctuation.definition.markdown"
             ],
             "settings": {
-                "foreground": "#fe8019"
+                "foreground": "#ff8b43"
             }
         },
         {
