@@ -29,8 +29,8 @@ no-ligation = true
     seven = "straight-serifless"
     eight = "crossing-asymmetric"
     paren = "normal"
+    asterisk = "hex-low"
     ampersand = "closed"
-    at = "fourfold-solid-inner"
     question = "smooth"
     lig-ltgteq = "flat"
 
