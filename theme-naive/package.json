@@ -1,7 +1,7 @@
 {
 	"name": "naive-theme",
 	"displayName": "Naive Theme",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"publisher": "BernardW",
 	"engines": {
 		"vscode": "*"
