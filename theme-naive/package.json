@@ -6,13 +6,15 @@
 	"engines": {
 		"vscode": "*"
 	},
-	"icon": "./icon.svg",
+	"categories": [
+		"Themes"
+	],
 	"contributes": {
 		"themes": [
 			{
 				"label": "Naive",
-				"path": "./themes/naive.json",
-				"uiTheme": "vs-dark"
+				"uiTheme": "vs-dark",
+				"path": "./themes/naive.json"
 			}
 		]
 	}
