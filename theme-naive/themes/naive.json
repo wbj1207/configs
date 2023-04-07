@@ -6,6 +6,7 @@
     "colors": {
         "activityBar.activeBorder": "#0078d4",
         "activityBar.background": "#2e2e2f",
+        "activityBar.border": "#424242",
         "editor.background": "#2e2e2f",
         "editor.findMatchBackground": "#9e6a03",
         "editor.foreground": "#d4d4d4",
@@ -14,22 +15,24 @@
         "editorBracketHighlight.foreground2": "#fec459",
         "editorBracketHighlight.foreground3": "#c678dd",
         "editorBracketHighlight.unexpectedBracket.foreground": "#ec3e45",
-        "editorCursor.foreground": "#f5bde6",
+        "editorCursor.foreground": "#f5c2e7",
+        "editorGroup.border": "#424242",
         "editorGroupHeader.tabsBackground": "#252526",
         "editorGroupHeader.tabsBorder": "#2e2e2f",
         "list.inactiveSelectionBackground": "#3a3a3b",
         "panel.background": "#2e2e2f",
         "panelTitle.activeBorder": "#0078d4",
         "peekViewEditor.background": "#2e2e2f",
-        "peekViewResult.background": "#2e2e2f",
+        "peekViewResult.background": "#252526",
         "sideBar.background": "#252526",
+        "sideBar.border": "#424242",
         "sideBarSectionHeader.background": "#2e2e2f",
         "statusBar.background": "#252526",
-        "statusBar.foreground": "#eaeaea",
+        "statusBar.foreground": "#ffffff",
         "statusBar.debuggingBackground": "#252526",
-        "statusBar.debuggingForeground": "#eaeaea",
+        "statusBar.debuggingForeground": "#ffffff",
         "statusBar.noFolderBackground": "#252526",
-        "statusBar.noFolderForeground": "#eaeaea",
+        "statusBar.noFolderForeground": "#ffffff",
         "tab.activeBackground": "#2e2e2f",
         "tab.activeBorderTop": "#0078d4",
         "tab.border": "#252526",
@@ -37,7 +40,7 @@
         "tab.inactiveBackground": "#252526",
         "tab.unfocusedActiveBorderTop": "#666666",
         "tab.unfocusedHoverBackground": "#3a3a3b",
-        "terminalCursor.foreground": "#f5bde6",
+        "terminalCursor.foreground": "#f5c2e7",
         "terminal.ansiBlack": "#252526",
         "terminal.ansiBlue": "#51afef",
         "terminal.ansiCyan": "#75d5c1",
@@ -46,13 +49,13 @@
         "terminal.ansiRed": "#ff6c6b",
         "terminal.ansiWhite": "#d4d4d4",
         "terminal.ansiYellow": "#e5c07b",
-        "terminal.ansiBrightBlack": "#969896",
+        "terminal.ansiBrightBlack": "#888888",
         "terminal.ansiBrightBlue": "#0099ff",
         "terminal.ansiBrightCyan": "#32d6b3",
         "terminal.ansiBrightGreen": "#73ca33",
         "terminal.ansiBrightMagenta": "#c678dd",
         "terminal.ansiBrightRed": "#ec3e45",
-        "terminal.ansiBrightWhite": "#eaeaea",
+        "terminal.ansiBrightWhite": "#ffffff",
         "terminal.ansiBrightYellow": "#fec459",
     },
     "tokenColors": [
@@ -78,7 +81,7 @@
                 "invalid.deprecated"
             ],
             "settings": {
-                "foreground": "#969896",
+                "foreground": "#888888",
                 "fontStyle": "strikethrough"
             }
         },
@@ -88,7 +91,7 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#969896"
+                "foreground": "#888888"
             }
         },
         {
@@ -186,7 +189,7 @@
                 "meta.separator.markdown"
             ],
             "settings": {
-                "foreground": "#969896"
+                "foreground": "#888888"
             }
         },
         {
@@ -205,17 +208,7 @@
             "scope": [
                 "entity.name.tag",
                 "keyword",
-                "storage",
-                "storage.type.class",
-                "storage.type.enum",
-                "storage.type.function",
-                "storage.type.interface",
-                "storage.type.internaldeclaration",
-                "storage.type.modifier",
-                "storage.type.namespace",
-                "storage.type.property",
-                "storage.type.trait",
-                "storage.type.type"
+                "storage"
             ],
             "settings": {
                 "foreground": "#51afef"
@@ -270,7 +263,7 @@
                 "wildcard.comment"
             ],
             "settings": {
-                "foreground": "#969896"
+                "foreground": "#888888"
             }
         },
         {
