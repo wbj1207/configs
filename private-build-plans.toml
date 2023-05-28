@@ -12,6 +12,7 @@ no-ligation = true
     [buildPlans.iosevka-mono.variants.design]
     capital-k = "straight-serifless"
     capital-q = "crossing"
+    i = "serifed-flat-tailed"
     k = "straight-serifless"
     r = "compact-serifless"
     u = "toothed-serifless"
@@ -22,7 +23,7 @@ no-ligation = true
     lower-lambda = "straight-turn"
     lower-mu = "tailless"
     lower-xi = "flat-top"
-    zero = "oval-slashed"
+    zero = "oval-tall-slashed"
     one = "no-base"
     five = "oblique-upper-left-bar"
     seven = "straight-serifless"
@@ -36,7 +37,6 @@ no-ligation = true
 
     [buildPlans.iosevka-mono.variants.italic]
     a = "double-storey-serifless"
-    i = "serifed-flat-tailed"
     y = "cursive-flat-hook-serifless"
 
 [buildPlans.iosevka-mono.slopes.upright]
