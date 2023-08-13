@@ -19,7 +19,7 @@ no-ligation = true
     u = "toothed-serifless"
     y = "straight-turn-serifless"
     long-s = "flat-hook-tailed"
-    eszet = "sulzbacher-descending"
+    eszet = "sulzbacher-descending-serifless"
     lower-alpha = "crossing"
     lower-lambda = "straight-turn"
     lower-mu = "tailless"
@@ -33,7 +33,6 @@ no-ligation = true
     ampersand = "closed"
     at = "fourfold-solid-inner"
     question = "smooth"
-    partial-derivative = "straight-bar"
     lig-ltgteq = "flat"
 
     [buildPlans.iosevka-mono.variants.italic]
