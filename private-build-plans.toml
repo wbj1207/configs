@@ -15,7 +15,7 @@ no-ligation = true
     capital-w = "straight-serifless"
     k = "straight-serifless"
     l = "serifed"
-    r = "compact-serifless"
+    r = "hookless-serifed"
     u = "toothed-serifless"
     y = "straight-turn-serifless"
     long-s = "flat-hook-tailed"
@@ -39,6 +39,7 @@ no-ligation = true
     e = "rounded"
     i = "serifed-flat-tailed"
     l = "serifed-flat-tailed"
+    r = "compact-serifless"
     y = "cursive-flat-hook-serifless"
 
 [buildPlans.iosevka-mono.slopes.upright]
