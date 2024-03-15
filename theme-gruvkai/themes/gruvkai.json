@@ -58,7 +58,6 @@
         "keybindingLabel.foreground": "#ebdbb2",
         "list.activeSelectionForeground": "#fbf1c7",
         "list.activeSelectionIconForeground": "#fbf1c7",
-        "list.inactiveFocusBackground": "#ff0000",
         "menu.background": "#282828",
         "notificationCenterHeader.background": "#282828",
         "notificationCenterHeader.foreground": "#ebdbb2",
@@ -264,9 +263,10 @@
             }
         },
         {
-            "name": "Variables",
+            "name": "Variables & operators",
             "scope": [
-                "variable"
+                "variable",
+                "keyword.operator"
             ],
             "settings": {
                 "foreground": "#ebdbb2"
