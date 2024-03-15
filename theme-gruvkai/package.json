@@ -1,0 +1,24 @@
+{
+    "name": "theme-gruvkai",
+    "displayName": "Gruvkai",
+    "description": "VSCode theme based on Gruvbox and Monokai.",
+    "version": "1.0.0",
+    "publisher": "BernardW",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "icon": "./icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gruvkai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gruvkai.json"
+            }
+        ]
+    }
+}
