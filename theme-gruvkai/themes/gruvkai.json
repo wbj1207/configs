@@ -6,15 +6,15 @@
         "activityBar.activeBorder": "#0078D4",
         "activityBar.background": "#1d2021",
         "activityBar.border": "#32302f",
-        "activityBar.foreground": "#fbf1c7",
+        "activityBar.foreground": "#eaeaea",
         "activityBar.inactiveForeground": "#a89984",
         "activityBarBadge.background": "#0078D4",
-        "activityBarBadge.foreground": "#fbf1c7",
+        "activityBarBadge.foreground": "#eaeaea",
         "badge.background": "#616161",
         "badge.foreground": "#F8F8F8",
         "button.background": "#0078D4",
-        "button.border": "#fbf1c712",
-        "button.foreground": "#fbf1c7",
+        "button.border": "#eaeaea12",
+        "button.foreground": "#eaeaea",
         "button.hoverBackground": "#026EC1",
         "button.secondaryBackground": "#32302f",
         "button.secondaryForeground": "#ebdbb2",
@@ -23,7 +23,7 @@
         "chat.slashCommandForeground": "#40A6FF",
         "checkbox.background": "#32302f",
         "checkbox.border": "#3C3C3C",
-        "commandCenter.activeForeground": "#fbf1c7",
+        "commandCenter.activeForeground": "#eaeaea",
         "debugToolBar.background": "#1d2021",
         "descriptionForeground": "#a89984",
         "dropdown.background": "#32302f",
@@ -35,7 +35,7 @@
         "editor.foreground": "#ebdbb2",
         "editor.lineHighlightBorder": "#32302f",
         "editorCursor.foreground": "#f5c2e7",
-        "editorGroup.border": "#fbf1c717",
+        "editorGroup.border": "#eaeaea17",
         "editorGroupHeader.tabsBackground": "#1d2021",
         "editorGroupHeader.tabsBorder": "#32302f",
         "editorGutter.addedBackground": "#2EA043",
@@ -56,8 +56,8 @@
         "inputOption.activeBackground": "#2489DB82",
         "inputOption.activeBorder": "#2488DB",
         "keybindingLabel.foreground": "#ebdbb2",
-        "list.activeSelectionForeground": "#fbf1c7",
-        "list.activeSelectionIconForeground": "#fbf1c7",
+        "list.activeSelectionForeground": "#eaeaea",
+        "list.activeSelectionIconForeground": "#eaeaea",
         "menu.background": "#282828",
         "notificationCenterHeader.background": "#282828",
         "notificationCenterHeader.foreground": "#ebdbb2",
@@ -80,7 +80,7 @@
         "quickInput.foreground": "#ebdbb2",
         "settings.dropdownBackground": "#32302f",
         "settings.dropdownBorder": "#3C3C3C",
-        "settings.headerForeground": "#fbf1c7",
+        "settings.headerForeground": "#eaeaea",
         "settings.modifiedItemIndicator": "#BB800966",
         "sideBar.background": "#1d2021",
         "sideBar.border": "#32302f",
@@ -92,18 +92,18 @@
         "statusBar.background": "#1d2021",
         "statusBar.border": "#32302f",
         "statusBar.debuggingBackground": "#0078D4",
-        "statusBar.debuggingForeground": "#fbf1c7",
+        "statusBar.debuggingForeground": "#eaeaea",
         "statusBar.focusBorder": "#0078D4",
         "statusBar.foreground": "#ebdbb2",
         "statusBar.noFolderBackground": "#282828",
         "statusBarItem.focusBorder": "#0078D4",
         "statusBarItem.prominentBackground": "#6E768166",
         "statusBarItem.remoteBackground": "#0078D4",
-        "statusBarItem.remoteForeground": "#fbf1c7",
+        "statusBarItem.remoteForeground": "#eaeaea",
         "tab.activeBackground": "#282828",
         "tab.activeBorder": "#282828",
         "tab.activeBorderTop": "#0078D4",
-        "tab.activeForeground": "#fbf1c7",
+        "tab.activeForeground": "#eaeaea",
         "tab.border": "#1d2021",
         "tab.hoverBackground": "#282828",
         "tab.inactiveBackground": "#1d2021",
@@ -128,12 +128,9 @@
         "welcomePage.tileBackground": "#32302f",
         "welcomePage.progress.foreground": "#0078D4",
         "widget.border": "#32302f",
-        "editorBracketHighlight.foreground1": "#fe8019",
+        "editorBracketHighlight.foreground1": "#ebdbb2",
         "editorBracketHighlight.foreground2": "#83a598",
         "editorBracketHighlight.foreground3": "#b8bb26",
-        "editorBracketHighlight.foreground4": "#fabd2f",
-        "editorBracketHighlight.foreground5": "#d3869b",
-        "editorBracketHighlight.foreground6": "#ebdbb2",
         "terminalCursor.foreground": "#f5c2e7",
         "terminal.foreground": "#ebdbb2",
         "terminal.ansiBlack": "#282828",
@@ -209,21 +206,18 @@
             }
         },
         {
-            "name": "Underlined markup",
             "scope": "markup.underline",
             "settings": {
                 "fontStyle": "underline"
             }
         },
         {
-            "name": "Bold markup",
             "scope": "markup.bold",
             "settings": {
                 "fontStyle": "bold",
             }
         },
         {
-            "name": "Markup headings",
             "scope": "markup.heading",
             "settings": {
                 "fontStyle": "bold",
@@ -231,21 +225,18 @@
             }
         },
         {
-            "name": "Markup italic",
             "scope": "markup.italic",
             "settings": {
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "Inline code (prose)",
             "scope": "markup.inline.raw",
             "settings": {
                 "foreground": "#8ec07c"
             }
         },
         {
-            "name": "Qutoes (prose)",
             "scope": "markup.quote",
             "settings": {
                 "foreground": "#fabd2f"
@@ -263,11 +254,8 @@
             }
         },
         {
-            "name": "Variables & operators",
-            "scope": [
-                "variable",
-                "keyword.operator"
-            ],
+            "name": "Variables",
+            "scope": "variable",
             "settings": {
                 "foreground": "#ebdbb2"
             }
@@ -278,6 +266,7 @@
                 "constant.character",
                 "constant.numeric",
                 "constant.language",
+                "variable.other.constant",
                 "support.constant"
             ],
             "settings": {
@@ -293,10 +282,7 @@
         },
         {
             "name": "Regular expressions",
-            "scope": [
-                "string.regexp",
-                "string.regexp punctuation.definition"
-            ],
+            "scope": "string.regexp",
             "settings": {
                 "foreground": "#8ec07c"
             }
