@@ -154,7 +154,7 @@
         {
             "scope": "header",
             "settings": {
-                "foreground": "#de935f"
+                "foreground": "#b294bb"
             }
         },
         {
@@ -188,7 +188,7 @@
                 "storage"
             ],
             "settings": {
-                "foreground": "#de935f"
+                "foreground": "#b294bb"
             }
         },
         {
@@ -206,7 +206,7 @@
                 "support.constant"
             ],
             "settings": {
-                "foreground": "#b294bb"
+                "foreground": "#de935f"
             }
         },
         {
@@ -270,7 +270,7 @@
         {
             "scope": "markup.heading",
             "settings": {
-                "foreground": "#de935f"
+                "foreground": "#b294bb"
             }
         },
         {
