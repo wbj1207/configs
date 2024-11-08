@@ -1,0 +1,24 @@
+{
+    "name": "theme-tonight",
+    "displayName": "Tonight",
+    "description": "VSCode theme based on Gruvbox and Tomorrow.",
+    "version": "1.0.0",
+    "publisher": "BernardW",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.svg",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tonight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tonight.json"
+            }
+        ]
+    }
+}
