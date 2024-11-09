@@ -167,7 +167,7 @@
         {
             "scope": "invalid.deprecated",
             "settings": {
-                "foreground": "#888888",
+                "foreground": "#de935f",
                 "fontStyle": "strikethrough"
             }
         },
@@ -177,7 +177,7 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#888888"
+                "foreground": "#de935f"
             }
         },
         {
@@ -206,7 +206,7 @@
                 "support.constant"
             ],
             "settings": {
-                "foreground": "#de935f"
+                "foreground": "#8abeb7"
             }
         },
         {
@@ -216,15 +216,9 @@
             }
         },
         {
-            "scope": "string.regexp",
-            "settings": {
-                "foreground": "#8abeb7"
-            }
-        },
-        {
             "scope": "comment",
             "settings": {
-                "foreground": "#888888"
+                "foreground": "#de935f"
             }
         },
         {
