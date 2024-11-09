@@ -167,7 +167,7 @@
         {
             "scope": "invalid.deprecated",
             "settings": {
-                "foreground": "#de935f",
+                "foreground": "#888888",
                 "fontStyle": "strikethrough"
             }
         },
@@ -206,13 +206,13 @@
                 "support.constant"
             ],
             "settings": {
-                "foreground": "#8abeb7"
+                "foreground": "#81a2be"
             }
         },
         {
             "scope": "string",
             "settings": {
-                "foreground": "#f0c674"
+                "foreground": "#b5bd68"
             }
         },
         {
@@ -234,13 +234,13 @@
                 "support.other.namespace"
             ],
             "settings": {
-                "foreground": "#81a2be"
+                "foreground": "#8abeb7"
             }
         },
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#b5bd68",
+                "foreground": "#f0c674",
             }
         },
         {
