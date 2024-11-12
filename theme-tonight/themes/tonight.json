@@ -131,7 +131,7 @@
         "widget.border": "#313131",
         "editorBracketHighlight.foreground1": "#b294bb",
         "editorBracketHighlight.foreground2": "#8abeb7",
-        "editorBracketHighlight.foreground3": "#f0c674",
+        "editorBracketHighlight.foreground3": "#e5c07b",
         "terminalCursor.foreground": "#f5c2e7",
         "terminal.ansiBlack": "#181818",
         "terminal.ansiBlue": "#81a2be",
@@ -140,7 +140,7 @@
         "terminal.ansiMagenta": "#b294bb",
         "terminal.ansiRed": "#cc6666",
         "terminal.ansiWhite": "#CCCCCC",
-        "terminal.ansiYellow": "#f0c674",
+        "terminal.ansiYellow": "#e5c07b",
         "terminal.ansiBrightBlack": "#1F1F1F",
         "terminal.ansiBrightBlue": "#7aa6da",
         "terminal.ansiBrightCyan": "#70c0b1",
@@ -177,7 +177,7 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#de935f"
+                "foreground": "#b294bb"
             }
         },
         {
@@ -200,13 +200,11 @@
         {
             "name": "Primitive values",
             "scope": [
-                "constant.character",
-                "constant.numeric",
-                "constant.language",
+                "constant",
                 "support.constant"
             ],
             "settings": {
-                "foreground": "#81a2be"
+                "foreground": "#de935f"
             }
         },
         {
@@ -218,7 +216,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#de935f"
+                "foreground": "#81a2be"
             }
         },
         {
@@ -240,7 +238,7 @@
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#f0c674",
+                "foreground": "#e5c07b",
             }
         },
         {
@@ -300,7 +298,7 @@
         {
             "scope": "markup.inline.raw",
             "settings": {
-                "foreground": "#f0c674"
+                "foreground": "#de935f"
             }
         },
     ]
